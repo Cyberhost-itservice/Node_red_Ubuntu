@@ -1,0 +1,11 @@
+Installing Node.js
+Before proceeding with the installation of Node-RED, install Node.js on your server. In this tutorial the latest version of Node.js, available to date, 14.0, will be used.
+
+Now, type these commands to proceed with the installation of Node.js:
+
+curl -sL https://rpm.nodesource.com/setup_14.x | sudo bash --
+sudo yum install -y nodejs
+In addition to Node.js, the relative Packet Manager “npm”, essential for the installation of each of its modules, will be installed. To verify that your installation was successful using the above commands, check the version of the software installed by typing:
+
+node -v
+npm -v
